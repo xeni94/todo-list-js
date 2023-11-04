@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+h2{
+    color: black;
+    text-align: center;
+}
+
+.container{
+    margin-top: 60px;
+}
+
+.inner_container {
+    background: linear-gradient(0deg, beige, white);
+    border: 2px solid beige;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 30px;
+    width: 550px;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+ul {
+    list-style: none;
+    padding-right: 30px;
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+.addTask {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.listTask {
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 40px;
+ 
+}
+
+
+.close {
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 470px;
+    text-align: center;
+
+}
+
